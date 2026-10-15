@@ -69,7 +69,7 @@ Welcome to my **Java Journey**! This repository is a complete, organized record 
 | 5 | Multithreading & Concurrency | ⚪ Upcoming |
 | 6 | File Handling & I/O Streams | ⚪ Upcoming |
 | 7 | JDBC & Database Connectivity | ⚪ Upcoming |
-| 8 | Mini Projects | ⚪ Upcoming |
+| 8 | Mini Projects | 🟢 **In Progress** |
 | 9 | Major Projects | ⚪ Upcoming |
 
 ---
