@@ -1,0 +1,57 @@
+interface NotificationService {
+    void sendAlert(String message);
+}
+
+class University {
+    String universityName;
+
+    University(String universityName) {
+        this.universityName = universityName;
+    }
+
+    class Department {
+        String deptName;
+
+        Department(String deptName) {
+            this.deptName = deptName;
+        }
+
+        void showDetails() {
+            System.out.println("University : " + universityName);
+            System.out.println("Department : " + deptName);
+        }
+    }
+
+    static class CampusFacility {
+        static String libraryName = "Central Knowledge Hub";
+
+        static void displayFacility() {
+            System.out.println("Facility   : " + libraryName);
+        }
+    }
+}
+
+public class InnerClassesDemo {
+    public static void main(String[] args) {
+        String developer = "Khushi Ahirwar";
+        System.out.println("Program by : " + developer);
+        System.out.println("----------------------------------");
+
+        University uni = new University("Tech Global University");
+        University.Department dept = uni.new Department("Computer Science & Engineering");
+        dept.showDetails();
+
+        System.out.println();
+        University.CampusFacility.displayFacility();
+
+        System.out.println();
+        NotificationService alertSystem = new NotificationService() {
+            @Override
+            public void sendAlert(String message) {
+                System.out.println("Security Alert: " + message);
+            }
+        };
+
+        alertSystem.sendAlert("System backup completed successfully.");
+    }
+}
