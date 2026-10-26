@@ -44,7 +44,8 @@ Welcome to my **Java Journey**! This repository is a complete, organized record 
     │   ├── 04-Methods/              # Methods, Overloading, Recursion
     │   ├── 05-Strings/              # String methods, StringBuilder, StringBuffer
     │   ├── 06-OOPs/                 # Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction
-    │   └── 07-Collections/          # List, Set, Map, Queue, Stack
+    │   ├── 07-Collections/          # List, Set, Map, Queue, Stack
+    │   └── 08-Exception-Handling/   # try-catch, throw, throws, custom exceptions
     ├── 02-DSA/
     │   ├── 01-Arrays/
     │   ├── 02-LinkedList/
@@ -62,10 +63,10 @@ Welcome to my **Java Journey**! This repository is a complete, organized record 
 
 | Stage | Topics | Status |
 | :---: | :--- | :---: |
-| 1 | Java Basics & Syntax | 🟢 **In Progress** |
-| 2 | Object-Oriented Programming (OOP) | ⚪ Upcoming |
-| 3 | Collections Framework | ⚪ Upcoming |
-| 4 | Exception Handling | ⚪ Upcoming |
+| 1 | Java Basics & Syntax | ✅ **Completed** |
+| 2 | Object-Oriented Programming (OOP) | ✅ **Completed** |
+| 3 | Collections Framework | ✅ **Completed** |
+| 4 | Exception Handling | 🟢 **In Progress** |
 | 5 | Multithreading & Concurrency | ⚪ Upcoming |
 | 6 | File Handling & I/O Streams | ⚪ Upcoming |
 | 7 | JDBC & Database Connectivity | ⚪ Upcoming |
